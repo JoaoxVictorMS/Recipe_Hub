@@ -1,8 +1,13 @@
-*.log
-*.pot
-*.pyc
-__pycache__/
-local_settings.py
+# Python / Django
+*.py[cod]
+*$py.class
+__pycache__/*
+media/
+staticfiles/
+venv/
+.venv/
+env/
 db.sqlite3
-db.sqlite3-journal
-media
+.env
+.DS_Store
+*.log

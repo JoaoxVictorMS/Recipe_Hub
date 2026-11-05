@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'recipe_hub',
         'USER': 'postgres',
-        'PASSWORD': '4100.143',
+        'PASSWORD': '4100.143', # Coloque sua senha que desejar
         'HOST': 'localhost'
     }
 }

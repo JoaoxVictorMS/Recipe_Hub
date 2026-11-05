@@ -13,25 +13,49 @@
     <!-- Favicon -->
     <link rel="icon" href="{% static 'img/core-img/favicon.ico' %}">
 
-    <!-- Stylesheet -->
+    <!-- Stylesheet original -->
     <link rel="stylesheet" href="{% static 'site.css' %}">
+
+    <!-- FORÇAR O STICKY FOOTER DIRETAMENTE NO HTML -->
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .site-content-wrapper {
+            flex: 1;
+        }
+    </style>
 
 </head>
 
 <body>
 
-    {% block content %} {% endblock %}
+    <!-- Cabeçalho e Menu Globais -->
+    {% include 'partials/_busca.html' %}
+    {% include 'partials/_menu.html' %}
+
+    <!-- Miolo dinâmico da página -->
+    <div class="site-content-wrapper">
+        {% block content %} 
+        {% endblock %}
+    </div>
+
+    <!-- Rodapé Global -->
+    {% include 'partials/_footer.html' %}
     
-  <!-- ##### All Javascript Files ##### -->
-    <!-- jQuery-2.2.4 js -->
+    <!-- Scripts JS -->
     <script src="{% static 'js/jquery/jquery-2.2.4.min.js' %}"></script>
-    <!-- Popper js -->
     <script src="{% static 'js/bootstrap/popper.min.js' %}"></script>
-    <!-- Bootstrap js -->
     <script src="{% static 'js/bootstrap/bootstrap.min.js' %}"></script>
-    <!-- All Plugins js -->
     <script src="{% static 'js/plugins/plugins.js'%}"></script>
-    <!-- Active js -->
     <script src="{% static 'js/active.js' %}"></script>
 </body>
 

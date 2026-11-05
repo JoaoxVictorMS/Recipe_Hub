@@ -95,7 +95,7 @@ DATABASES = {
 
 O restante do arquivo já está devidamente configurado.
 
-<h3>Criando o Branco de Dados</h2>
+<h3>Criando o Banco de Dados</h2>
 
 Com o PostgreSQL devidamente instalado, abra o `pgAdmin4` -> abra a aba `Servers` -> clique em `PostgreSQl 18` -> coloque a MESMA senha colocada na variável `DATABASES` -> Clique com o botão esquerdo em `Databases` -> Clique em `Create` e depois em `Database` -> Coloque o nome do Database como `recipe_hub`, o mesmo configurado na variável `DATABASE` em `settings.py`
 

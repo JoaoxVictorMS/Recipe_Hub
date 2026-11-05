@@ -127,6 +127,16 @@ Baixe as dependências do projeto.
 pip install -r requirements.txt
 ```
 
+<h3>Admin User</h3>
+
+Crie o usuario Admin para poder acessar a página de administração
+
+```bash
+python manage.py createsuperuser
+```
+
+Coloque as credenciais que deseja e acesse o painel de admin via `localhost:8000/admin`
+
 <h3>Executando</h3>
 
 Criando as migrações dos modelos do ORM para o PostgreSQL
@@ -146,16 +156,6 @@ Executando o projeto
 ```bash
 python manage.py runserver
 ```
-
-<h3>Admin User</h3>
-
-Crie o usuario Admin para poder acessar a página de administração
-
-```bash
-python manage.py createsuperuser
-```
-
-Coloque as credenciais que deseja e acesse o painel de admin via `localhost:8000/admin`
 
 <h2 id="colab">🤝 Colaboradores</h2>
 

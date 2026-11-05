@@ -15,7 +15,6 @@
 <p align="center">
  <a href="#tech">Tecnologias</a> • 
  <a href="#started">Iniciando</a> • 
-  <a href="#routes">API Endpoints</a> •
  <a href="#colab">Colaboradores</a> •
  <a href="#contribute">Contribua</a>
 </p>

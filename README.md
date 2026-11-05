@@ -21,10 +21,6 @@
 </p>
 
 <p align="center">
-     <a href="PROJECT__URL">📱 Visite o projeto</a>
-</p>
-
-<p align="center">
     <b>Este é o Recipe Hub, um pequeno site em que os usuários podem criar suas contas, cadastrar suas receitas, editá-las, deletá-las e acessá-las quando quiser. O admin do site escolhe as melhores receitas para colocar no dashboard principal!.</b>
 </p>
 
